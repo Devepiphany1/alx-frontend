@@ -1,0 +1,11 @@
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Targeting the container class */
+.container {
+    width: 960px; /* Set the width to 960px */
+    margin: 0 auto; /* Evenly distribute the margins on both sides */
+}
+
+/* Other styles remain the same */
