@@ -1,0 +1,5 @@
+.row::after {
+    content: ""; /* No content */
+    display: table; /* Display as a table */
+    clear: both; /* Prevent floating elements on both sides */
+}

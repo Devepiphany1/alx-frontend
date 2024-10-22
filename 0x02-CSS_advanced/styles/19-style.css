@@ -1,0 +1,42 @@
+:root {
+    /* Custom properties */
+    --section-tagline-margin: 0; /* Set margin for section-tagline */
+}
+
+/* Section Tagline */
+.section-tagline {
+    margin: var(--section-tagline-margin); /* Set margin to 0 */
+}
+
+/* ul.row */
+ul.row {
+    margin: 0; /* Set all margins to 0 */
+    padding: 0; /* Set all padding to 0 */
+    list-style: none; /* Remove default list styles */
+}
+
+/* col-1-3 class */
+.col-1-3 {
+    width: 33.33%; /* Set width to 33.33% of parent */
+    float: left; /* Float to the left */
+    padding: calc(0.5 * 1rem); /* Set padding to half of the root element */
+}
+
+/* col-1-2 class */
+.col-1-2 {
+    width: 50%; /* Set width to 50% of parent */
+    float: left; /* Float to the left */
+    padding: calc(0.5 * 1rem); /* Set padding to half of the root element */
+}
+
+/* footer-copyright class */
+.footer-copyright {
+    margin: 0; /* No margins */
+    font-size: var(--font-size-small); /* Set font size to small */
+    color: var(--text-color); /* Set foreground color to text-color */
+}
+
+/* ul inside footer */
+footer ul {
+    text-align: right; /* Align text to the right */
+}

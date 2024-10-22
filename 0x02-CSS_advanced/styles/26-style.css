@@ -1,0 +1,18 @@
+/* Card-testimonial selector */
+.card-testimonial {
+    text-align: center; /* Center align the text */
+}
+
+/* Card-avatar inside card-testimonial */
+.card-testimonial .card-avatar {
+    border-radius: 50%; /* Round the radius at 50% */
+    width: 10rem; /* Set width to 10x the root element */
+    height: 10rem; /* Set height to 10x the root element */
+}
+
+/* Cite inside card-quote in card-testimonial */
+.card-testimonial .card-quote cite {
+    display: block; /* Display cite as a block level element */
+    padding-top: 1rem; /* Pad the top with 1x the root element */
+    color: var(--color-primary); /* Set the color to color-primary */
+}

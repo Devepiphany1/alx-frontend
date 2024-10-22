@@ -1,0 +1,30 @@
+:root {
+    --button-display: inline-block;
+    --button-padding: 1.5rem 3rem;
+    --button-border: 0.2rem solid var(--color-primary);
+    --button-color: var(--color-black);
+    --button-text-decoration: none;
+    --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
+    --button-hover-text-decoration: none;
+    --button-hover-background: var(--color-primary);
+}
+/* Button class selector */
+.button {
+    display: var(--button-display); /* Use button-display variable */
+    padding: var(--button-padding); /* Use button-padding variable */
+    border: var(--button-border); /* Use button-border variable */
+    font-size: var(--button-font-size); /* Use button-font-size variable */
+    color: var(--button-color); /* Use button-color variable */
+    text-decoration: var(--button-text-decoration); /* Use button-text-decoration variable */
+}
+
+/* Hover state for button class */
+.button:hover {
+    color: var(--button-hover-color); /* Set to button-hover-color variable */
+    text-decoration: var(--button-hover-text-decoration); /* Use button-hover-text-decoration */
+    background-color: var(--button-hover-background); /* Use button-hover-background */
+}
+[data-section-theme="dark"] {
+    --button-color: var(--color-white); /* Override button-color for dark theme */
+}
