@@ -1,0 +1,55 @@
+/* Define custom font-size properties at the root level */
+:root {
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Set all fonts in the html element to 62.5% of their normal size */
+html {
+    font-size: 62.5%; /* This sets the base font size to 10px (62.5% of 16px), making rem calculations easier */
+}
+
+/* Set the body font size to font-size-medium */
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    color: var(--text-color);
+}
+
+/* Set font-family for all section headings (h1-h6) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+/* Set the anchor foreground color to text-color */
+a {
+    color: var(--text-color);
+}
+
+/* Hide all elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Set the foreground color for elements with the class card-category to color-primary */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Set the foreground color for elements with the class section-tagline to color-primary */
+.section-tagline {
+    color: var(--color-primary);
+}
